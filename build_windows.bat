@@ -31,11 +31,11 @@ echo Building executable...
 pyinstaller RT_LAMP_Designer.spec
 
 REM Check if build was successful
-if exist "dist\RT-LAMP Designer.exe" (
+if exist "dist\RT_LAMP_Designer_Folder\RT_LAMP_Designer.exe" (
     echo.
     echo =============================================
     echo BUILD SUCCESSFUL!
-    echo Executable location: dist\RT-LAMP Designer.exe
+    echo Executable location: dist\RT_LAMP_Designer_Folder\RT_LAMP_Designer.exe
     echo =============================================
     echo.
 ) else (
