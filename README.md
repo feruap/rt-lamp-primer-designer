@@ -2,6 +2,46 @@
 
 A comprehensive real-time Loop-mediated Isothermal Amplification (RT-LAMP) primer design tool with advanced consensus sequence analysis and multiplex capabilities.
 
+## 🔗 GitHub Repository
+
+**Repository URL**: https://github.com/feruap/rt-lamp-primer-designer
+
+## 🚀 Quick Start for Windows Users
+
+### Option 1: Build from GitHub (Recommended)
+
+1. **Clone the repository**:
+   ```cmd
+   git clone https://github.com/feruap/rt-lamp-primer-designer.git
+   cd rt-lamp-primer-designer
+   ```
+
+2. **Run the automated build script**:
+   ```cmd
+   build_windows.bat
+   ```
+
+3. **Find your executable**:
+   - Location: `dist\RT-LAMP Designer.exe`
+   - Double-click to run the application
+
+### Option 2: Manual Build
+
+1. **Prerequisites**: Python 3.8+ installed with PATH configured
+2. **Setup environment**:
+   ```cmd
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+   pip install pyinstaller
+   ```
+3. **Build executable**:
+   ```cmd
+   pyinstaller RT_LAMP_Designer.spec
+   ```
+
+📖 **For detailed Windows build instructions, see [WINDOWS_BUILD.md](WINDOWS_BUILD.md)**
+
 ## Project Structure
 
 ```
