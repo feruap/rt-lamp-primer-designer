@@ -169,6 +169,14 @@ dist/
 *.tar.gz
 *.zip
 
+# Release packages and large binaries
+release_package/
+RT_LAMP_Release_*.tar.gz
+*.exe
+*.dmg
+*.deb
+*.rpm
+
 # Test outputs
 test_outputs/
 temp/
